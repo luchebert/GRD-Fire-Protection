@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
-import TopContainer from "@/components/top-container";
+import TopContainer from "@/components/TopContainer";
 
 const Contact = () => {
   return (
-    <>
-      <TopContainer />
-      <div>Contact</div>
-    </>
+    <main>
+      <div className="container mx-auto">
+        <TopContainer />
+        <div>Contact</div>
+      </div>
+    </main>
   );
 };
 

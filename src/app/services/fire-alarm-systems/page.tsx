@@ -1,12 +1,14 @@
-import TopContainer from "@/components/top-container";
+import TopContainer from "@/components/TopContainer";
 import React from "react";
 
 const FireAlarmSystems = () => {
   return (
-    <>
-      <TopContainer />
-      <div>Fire Alarm Systems Content</div>
-    </>
+    <main>
+      <div className="container mx-auto">
+        <TopContainer />
+        <div>Fire Alarm Systems Content</div>
+      </div>
+    </main>
   );
 };
 

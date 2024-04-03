@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
-import TopContainer from "@/components/top-container";
+import TopContainer from "@/components/TopContainer";
 
 const FireSprinklerSystems = () => {
   return (
-    <>
-      <TopContainer />
-      <div>Fire Sprinkler Systems Content</div>
-    </>
+    <main>
+      <div className="container mx-auto">
+        <TopContainer />
+        <div>Fire Sprinkler Systems Content</div>
+      </div>
+    </main>
   );
 };
 

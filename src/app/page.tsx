@@ -1,12 +1,12 @@
 "use client";
-import Image from "next/image";
-import MainNav from "@/components/main-nav";
-import TopContainer from "@/components/top-container";
+import TopContainer from "@/components/TopContainer";
 
 export default function Home() {
   return (
     <main>
-      <TopContainer />
+      <div className="container mx-auto">
+        <TopContainer />
+      </div>
     </main>
   );
 }
