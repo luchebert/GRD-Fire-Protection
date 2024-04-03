@@ -7,7 +7,12 @@ import Social from "./social";
 import Carousel from "./carousel";
 
 const TopContainer = () => {
-  return <MainNav />;
+  return (
+    <>
+      <Logo />
+      <MainNav />
+    </>
+  );
 };
 
 export default TopContainer;
